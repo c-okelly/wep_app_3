@@ -30,8 +30,17 @@
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <link rel="icon" type="image/png" href="images/Icon.jpg">
     </head>
- <body class="contact">
+ <body class="classic_car">
+     
         <!--           Include banner and nav          -->
             <?php include "Nav.php"; ?>    
+     
+     
+        <!--            Main page content        -->
+     
+     
+        <!--            Include footer for page        -->
+            <?php include "Footer.php" ?>
+     
  </body>
 </html>

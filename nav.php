@@ -1,20 +1,10 @@
 <html>
-    <head>
-        
-              <!-- CSS
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <link rel="stylesheet" href="css/normalize.css" type="text/css">
-        <link rel="stylesheet" href="css/skeleton.css"  type="text/css">
-        <link rel="stylesheet" href="css/styles.css" type="text/css">
-    
-    </head>
-    <body class="contact">
-        <!-- Primary Page Layout  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <body>
         <div class="container banner">        
             <div class="row"> <!-- Banner -->
                 <div class="four columns banner_text" >
                     <section class="center">
-                        Classic car Models<br>
+                       
                     </section>
                 </div>
             </div> <!-- Banner end -->
@@ -24,7 +14,7 @@
             <div class="row"> 
                 <div class="twelve columns"> 
                     <nav>
-                        <ul>
+                        <ul class="not_so_tall">
                             <li> <a href="index.php">Home</a></li>
                             <li><a href="Product.php">Products</a>
                             <li><a  href="Customers.php">Customers</a>

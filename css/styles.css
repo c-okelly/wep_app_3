@@ -136,12 +136,12 @@ body {
     text-align: center;
     background-color: #adb0b8;
     width: 100%;
-    height: 10rem;
+    height: 7rem;
     background-color: #adb0b8;
     margin: 0 0 0 0;
     max-width: none; /* Otherwise contaienr makes problems */ 
     background-image: url(../images/banner.jpg);
-    background-size: 100% 10rem;
+    background-size: 100% 7rem;
     background-repeat: no-repeat;
     color: orangered;
     font-size: 2rem
@@ -657,3 +657,13 @@ kit_text_wraped {
     display: none;
 }
 
+
+
+
+.not_so_tall, a {
+    height: 50px;
+}
+
+.classic_car {
+    background-image: url(../images/Gray_plain.jpg);
+}
