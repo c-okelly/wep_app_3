@@ -666,4 +666,14 @@ kit_text_wraped {
 
 .classic_car {
     background-image: url(../images/Gray_plain.jpg);
+    color: white;
+}
+
+.index_data {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.underlined {
+    text-decoration: underline;
 }
