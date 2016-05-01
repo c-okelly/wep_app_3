@@ -59,11 +59,6 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $user_request = $_POST['user_request'];
         }
-        
-     
-
-     
-     echo "user request ", $user_request;
      
      ?>
      
@@ -96,8 +91,9 @@
         // set the PDO error mode to exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
          
+
         // Create query and perpare it
-        $sql = 'select * from products where productLine = "Ships";';
+        $sql = "SELECT * FROM products WHERE productLine = '$user_request';";
         $query = $conn->query($sql);
         
         
