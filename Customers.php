@@ -44,7 +44,8 @@
      
      <div>
          <p class="center underlined">
-            Here is a list of all cusotmers currently in the database.
+            Here is a list of all cusotmers currently in the database.<br>
+             Click on the customer name for more information.
          </p>
      </div>
 
@@ -88,14 +89,14 @@
             
             // Print out div of relevant information
             echo '<tr class="name_',$count,'"> <td>',$customer_name,'</td><td>',$country,'</td> </tr>';
-            echo '<tr style="display:none;" class="extra_info_',$count,'"><td>Customer no</td><td>Phone</td><td>Address line 1</td><td>Address line 2</td><td>City</td><td>State</td><td>Postal Code</td><td>Sales rep employee no</td><td>Credit Limit</td></tr>
-                <tr style="display:none;" class="extra_info_',$count,'"><td>',$customer_no,'<td><td>',$phone,'</td><td>',$address_1,'</td><td>',$address_2,'</td><td>',$city,'</td><td>',$state,'</td><td>',$sales_rep_emp_no,'</td><td>',$credit_limit,'</td></tr>
+            echo '<tr style="display:none; color:yellow;" class="extra_info_',$count,'"><td>Customer no</td><td>Phone</td><td>Address line 1</td><td>Address line 2</td><td>City</td><td>State</td><td>Postal Code</td><td>Sales rep employee no</td><td>Credit Limit</td></tr>
+                <tr style="display:none; color:yellow;" class="extra_info_',$count,'"><td>',$customer_no,'<td><td>',$phone,'</td><td>',$address_1,'</td><td>',$address_2,'</td><td>',$city,'</td><td>',$state,'</td><td>',$sales_rep_emp_no,'</td><td>',$credit_limit,'</td></tr>
             ';
             #style="display:none;
             
             $count += 1;
             }
-         
+        
         echo '</table>';
 
 //        echo "New records created successfully";
@@ -111,9 +112,11 @@
      
      
         <!--            Include footer for page        -->
-            <?php include "Footer.php" ?>
+            <?php include "Footer.php"; ?>
      
         <!--    Java script for page     -->
+     
+<!--     Java script function to add lisinters to each name so on click the show hidden div -->
      <script type="application/javascript">
      
          $(document).ready(function() {

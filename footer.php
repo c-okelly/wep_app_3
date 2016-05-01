@@ -3,7 +3,7 @@
   <title>Footer</title>
  </head>
  <body>
-<div class="container footer"> <!-- Footer -->
+<div class="footer"> <!-- Footer -->
             <div class="row">
                 <div class="seven columns">
                     <footer class="small_footer">

@@ -694,3 +694,8 @@ kit_text_wraped {
 .spaced_form, input {
     
 }
+
+.margin_top {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

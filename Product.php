@@ -44,16 +44,6 @@
      
 <!--    Set php function to capture user request and return string     -->
      <?php
-     // Standard regex used to clean string not mine! Taken from stack exchagne
-//     function clean_string_re($string_input){
-//         $string_input = str_replace(" ", "-",$string_input);
-//         return preg_replace('/[^A-Za-z0-9\-]/', '', $string_input);
-//     }
-//     $clean_string = clean_string_re($user_request);
-//      
-//     Not need for this page as string input is alreayd defined.
-     
-     
         $user_requst = "";
         
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -139,7 +129,7 @@
      
      
         <!--            Include footer for page        -->
-            <?php include "Footer.php" ?>
+            <?php include "Footer.php"; ?>
      
  </body>
 </html>

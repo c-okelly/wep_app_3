@@ -87,7 +87,7 @@
      
      
         <!--            Include footer for page        -->
-            <?php include "Footer.php" ?>
+            <?php include "Footer.php"; ?>
      
  </body>
 </html>
