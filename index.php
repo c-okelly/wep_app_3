@@ -41,7 +41,6 @@
          <p class="center underlined">
             Here is a list and discription of all the produts that are currently being offered by Classic models!
          </p>
-
      </div>
 
      
